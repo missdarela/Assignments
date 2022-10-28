@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    margin:100px;
+}
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a b'
+    'c d d'
+    'c e e'
+    ;
+    gap:10px;
+    width: 50%;
+    margin: auto;
+}
+main div{
+    padding:2em;
+    text-align: center;
+    gap:10px;
+}
+.g1{
+    background-color: lavender;
+    grid-area: a;
+}
+.g2{
+    background-color: rosybrown;
+    grid-area: b;
+}
+.g3{
+    background-color: salmon;
+    grid-area: c;
+}
+.g4{
+    background-color: navy;
+    grid-area: d;
+}
+.g5{
+    background-color: pink;
+    grid-area: e;
+}
