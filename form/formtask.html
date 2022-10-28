@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <h2>Create Account</h2> <br>
+
+        <!-- first name -->
+        <label for="fname">Enter First Name</label> <br>
+        <input type="text" name="fname" required> <br>
+        
+        <!-- last name -->
+        <label for="lname">Enter Last Name</label> <br>
+        <input type="text" name="lname" required> <br>
+
+        <!-- phone number -->
+        <label for="number">Enter Phone Number</label> <br>
+        <input type="tel" name="phone num" required pattern="[0-9]{11}"> <br>
+
+        <!-- Email -->
+        <label for="mail">Enter Your Email</label> <br>
+        <input type="email" name="mail" required><br>
+
+        <!-- Gender -->
+        <label for="gender">Choose Your Gender:</label>
+        <select name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select> <br> <br>
+
+        <!-- DOB -->
+        <label for="DOB">Date Of Birth</label> <br>
+        <input type="date" name="date" required><br>
+
+        <!-- color selector -->
+        <label for="color">Pick Your Favorite Color</label> 
+        <input type="color" class="color" name="favcolor" value="#815B5B"  required> <br>
+
+        <!-- button -->
+        <button>
+            <a href="login.html"> Register</a>
+        </button>
+    </form>
+</body>
+</html>

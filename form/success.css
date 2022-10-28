@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* body */
+body{
+    align-items: center;
+    background-color: #00D7FF;
+    color:#002B5B;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    font-size: 40px;
+    font-family:cursive;
+}
+
+/* section */
+section{
+    background-color: #72FFFF;
+    width: 100%;
+    padding:40px;
+    text-align: center;
+}
+
+/* entity */
+span{
+    font-size: 60px;
+}
